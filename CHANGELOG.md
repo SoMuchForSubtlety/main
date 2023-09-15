@@ -1,5 +1,23 @@
 # Changelog
 
+## [1.10.0](https://github.com/ublue-os/main/compare/v1.9.0...v1.10.0) (2023-09-15)
+
+
+### Features
+
+* add cosign ([#308](https://github.com/ublue-os/main/issues/308)) ([4ba7efd](https://github.com/ublue-os/main/commit/4ba7efd440efd31b83c81b9fd88e5a99f1322763))
+* Add xone and xpad-noone drivers ([#314](https://github.com/ublue-os/main/issues/314)) ([940a231](https://github.com/ublue-os/main/commit/940a231bcd9418db3c2a4e1f4f150ed265647ad4))
+* build nvidia images in main repo ([#319](https://github.com/ublue-os/main/issues/319)) ([40e6c5d](https://github.com/ublue-os/main/commit/40e6c5d1facb90b3d5340f113ae3a52f169bd1ac))
+* remove google-noto-sans-cjk-vf-fonts and replace it with google-noto-sans-cjk-fonts ([#334](https://github.com/ublue-os/main/issues/334)) ([50541f2](https://github.com/ublue-os/main/commit/50541f2d77c7208dd7b18d5e3947f6bac6c267c1))
+
+
+### Bug Fixes
+
+* remove extra 'tags' line from cosign ([#321](https://github.com/ublue-os/main/issues/321)) ([36fcf22](https://github.com/ublue-os/main/commit/36fcf22bc0b1bcfda66f6fdfec21d95923bb5f6f))
+* remove libheif-freeworld from packages to fix build ([#332](https://github.com/ublue-os/main/issues/332)) ([9cb853b](https://github.com/ublue-os/main/commit/9cb853bfe535426a9113f32f972f3ae7b210db32))
+* switch back to free builders to fix skopeo inspect issue ([#322](https://github.com/ublue-os/main/issues/322)) ([1cfad9e](https://github.com/ublue-os/main/commit/1cfad9e1f728707f65864125959126dadfe3ab29))
+* use raw output from jq to install cosign again ([#312](https://github.com/ublue-os/main/issues/312)) ([9b12fd5](https://github.com/ublue-os/main/commit/9b12fd58401c9118ca24c6de5d79076455d5ad93))
+
 ## [1.9.0](https://github.com/ublue-os/main/compare/v1.8.0...v1.9.0) (2023-08-16)
 
 
